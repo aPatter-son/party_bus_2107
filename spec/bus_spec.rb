@@ -1,7 +1,7 @@
 require 'rspec'
 require './lib/bus'
 
-describe Bus do
+RSpec.describe Bus do
   context 'Attributes' do
     it 'is a bus' do
       bus = Bus.new('Mikes Awesome Bus', 4)

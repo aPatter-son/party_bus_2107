@@ -1,4 +1,4 @@
-require 'pry'; binding.pry
+
 class Bus
   attr_reader :name, :passengers
 
