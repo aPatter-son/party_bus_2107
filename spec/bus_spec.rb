@@ -3,16 +3,18 @@ require './lib/bus'
 
 describe Bus do
   context 'Attributes' do
-    xit 'is a bus' do
+    it 'is a bus' do
       bus = Bus.new('Mikes Awesome Bus', 4)
 
       expect(bus).to be_an_instance_of(Bus)
+
     end
 
-    xit 'has a name' do
+    it 'has a name' do
       bus = Bus.new('Mikes Awesome Bus', 4)
 
       expect(bus.name).to eq("Mikes Awesome Bus")
+
     end
 
     xit 'has a capacity' do
